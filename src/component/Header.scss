@@ -1,0 +1,66 @@
+
+.MuiToolbar-regular{
+    background-color: #f7953d; 
+    &.MuiToolbar-gutters{
+        padding:0px 42px;
+    }   
+    
+}
+.MuiAppBar-root{
+    box-shadow:unset!important;
+}
+.tootbar-wrapper{
+    display: flex;
+    justify-content:space-between;
+    .logo-wrapper{
+        display: flex;
+        align-items: center;
+    }
+    .right-menu{
+        display: flex;       
+        button{
+            color:#fff;   
+            min-width:40px;   
+              
+        }
+        .ProfileBtn{
+            
+            .Profile-name{
+                display:inline-flex;
+                padding:0px 10px;
+            }       
+        }
+        
+        
+    }
+}
+.MainMenu{
+   
+    ul{
+        padding:0px;
+        display: flex;    
+        padding:0px 42px;
+        margin:0px;
+        height: 48px;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+        background-color: #ffffff;
+        li{
+            list-style-type: none;
+            align-items: center;
+            height:100%;
+
+            a{
+                display: block;
+                font-size: 14px;
+                color:#474747;
+                padding:20px 20px 12px;                
+                &:hover,
+                &.active{
+                    color:#f7953d;
+                    border-bottom:2px solid #f7953d;
+                }
+
+            }
+        }
+    }
+}
