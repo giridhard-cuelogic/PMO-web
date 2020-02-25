@@ -10,3 +10,33 @@
     justify-content: space-between;
 
 }
+
+.right-section,.bottom-section, .top-section{
+    background-color: #fff;
+    padding:8px;
+
+}
+.top-section{
+    margin-bottom:20px;
+}
+.heding-content{
+    display:flex;
+    justify-content: space-between;
+    button{
+        padding: 12px 30px;
+        color: #fff;
+        background-color: #f7953d;
+        margin-top:0px;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+}
+.pichart-row{
+    display:flex;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+}
