@@ -12,19 +12,22 @@ class Dashboard extends Component {
         return (
             <div className="dashboard-wrapper">
                 <Header />
-                <div className="count-info-section ">                   
-                    <Countinfo></Countinfo>
-                    <Countinfo></Countinfo>
-                    <Countinfo></Countinfo>
-                    <Countinfo></Countinfo>
-                    <Countinfo></Countinfo>                                       
+                <div className="count-info-section ">  
+                    <Grid container  spacing={2} className="container">                  
+                        <Countinfo></Countinfo>
+                        <Countinfo></Countinfo>
+                        <Countinfo></Countinfo>
+                        <Countinfo></Countinfo>
+                        <Countinfo></Countinfo>     
+                    </Grid>                                      
                 </div>
-                <div className="dashboard-inner-wraper container">                  
+                <div className="dashboard-inner-wraper">                  
                     <Grid container  spacing={2} className="container">
-                        <Grid container item xs={7} className="left-section">
+                        <Grid container item xs={12} sm={12} md={7} spacing={0} className="left-section">
                             <Grid item xs={12} className="top-section">                                    
                                 <div className="heding-content">
                                     <h2>Avg. Global Score</h2>
+                                    
                                 </div>
                                 <div className="pichart-row">
 
@@ -49,10 +52,9 @@ class Dashboard extends Component {
                                 
                             </Grid>
                         </Grid>
-                        <Grid item xs={5} className="right-section">
+                        <Grid item xs={12} sm={12} md={5} className="right-section">
                             <div className="heding-content">
-                                <h2>Missions</h2>
-                                
+                                <h2>Missions</h2>                                
                             </div>
                             
                         </Grid>

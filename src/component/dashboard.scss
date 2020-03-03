@@ -5,15 +5,19 @@
     padding:0px 42px;
 }
 .count-info-section{
-    padding:40px 42px;
+    padding:40px 0px;
     display:flex;
     justify-content: space-between;
-
+    .MuiGrid-grid-md-3 {
+        @media (min-width: 960px){
+            max-width:20%;
+        }
+    }  
 }
 
-.right-section,.bottom-section, .top-section{
+.right-section,.left-section, .bottom-section, .top-section{
     background-color: #fff;
-    padding:8px;
+  
 
 }
 .top-section{
