@@ -1,0 +1,27 @@
+.btn{
+    padding: 8px 20px;
+    color: #fff;
+    background-color: #f7953d!important;
+    margin-top:0px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    .btn-search{
+        padding: 10px;
+    }    
+} 
+.selectInput {
+    width: 100%;   
+    .selectInput-inner{
+        select{
+            border:1px solid #f7953d!important;
+          
+        }
+        &:before, &:after{
+            display:none;       
+        }
+        .MuiNativeSelect-icon{
+            color:#f7953d;
+        }
+    }
+
+}

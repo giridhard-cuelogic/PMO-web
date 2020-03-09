@@ -4,13 +4,14 @@ import Grid from '@material-ui/core/Grid';
 import Header from './Header';
 import Countinfo from './Countinfo';
 import Button from '@material-ui/core/Button';
+import './common.scss';
 import './dashboard.scss';
 
 
 class Dashboard extends Component {
     render() {
         return (
-            <div className="dashboard-wrapper">
+            <div className="wrapper">
                 <Header />
                 <div className="count-info-section ">  
                     <Grid container  spacing={2} className="container">                  
@@ -23,7 +24,7 @@ class Dashboard extends Component {
                 </div>
                 <div className="dashboard-inner-wraper">                  
                     <Grid container  spacing={2} className="container">
-                        <Grid container item xs={12} sm={12} md={7} spacing={0} className="left-section">
+                        <Grid container item xs={12} sm={12} md={7} spacing={2} className="left-section">
                             <Grid item xs={12} className="top-section">                                    
                                 <div className="heding-content">
                                     <h2>Avg. Global Score</h2>
@@ -33,7 +34,7 @@ class Dashboard extends Component {
 
                                 </div>
                                 <div className="title">
-                                    <h2>Corporate Services Score Breakdown</h2>
+                                    <h3>Corporate Services Score Breakdown</h3>
                                 </div>
                                 <div className="pichart-row">
 

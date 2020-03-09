@@ -1,10 +1,14 @@
-.dashboard-wrapper{
+.wrapper{
     background-color:#fafafa;
 }
 .container{
+    padding:0px 34px;
     padding:0px 42px;
+    margin:0px!important;
+    width:100%!important;
+    justify-content: space-between;
 }
-.count-info-section{
+.count-info-section{ 
     padding:40px 0px;
     display:flex;
     justify-content: space-between;
@@ -14,11 +18,18 @@
         }
     }  
 }
-
-.right-section,.left-section, .bottom-section, .top-section{
+.right-section,.left-section{
+    padding-left:8px;
+    padding-right:8px;
+}
+.right-section,.bottom-section, .top-section{
     background-color: #fff;
-  
-
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+}
+.bottom-section{
+    margin-top:16px!important;
+    
 }
 .top-section{
     margin-bottom:20px;
@@ -27,7 +38,7 @@
     display:flex;
     justify-content: space-between;
     button{
-        padding: 12px 30px;
+        padding: 8px 20px;
         color: #fff;
         background-color: #f7953d;
         margin-top:0px;
@@ -43,4 +54,14 @@
 h2{
     text-align: left;
     font-size: 20px;
+    color: #474747;
+    font-family: 'Work Sans';
+    font-weight: 600;
+}
+h3{
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    color: #474747;
 }
