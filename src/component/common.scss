@@ -5,8 +5,18 @@
     margin-top:0px;
     font-size: 16px;
     margin-bottom: 24px;
-    .btn-search{
-        padding: 10px;
+   
+    &.btn-search{
+        padding: 8px 10px;
+        min-width: 35px;
+        margin-left: 15px;
+       
+        .MuiButton-label{
+            svg{
+                color:white;
+            } 
+        }
+       
     }    
 } 
 .selectInput {
@@ -14,6 +24,9 @@
     .selectInput-inner{
         select{
             border:1px solid #f7953d!important;
+            margin-left: 15px;
+            padding:10px;
+            background-color: white;
           
         }
         &:before, &:after{

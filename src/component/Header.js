@@ -18,6 +18,7 @@ import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
+import logo from '../asets/logo.png';
 import './Header.scss';
 
 
@@ -70,7 +71,7 @@ class Header extends Component {
                                 <MenuIcon />
                             </IconButton> */}
                             <Typography variant="h6">
-                            Injajzati
+                                    <img src={logo}></img>
                             </Typography>
                         </div>                       
                         <div className="right-menu">

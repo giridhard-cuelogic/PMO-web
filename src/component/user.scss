@@ -2,9 +2,61 @@
     background-color:#fafafa;
 }
 .title-row{
-    width:100%;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
 }
 .controls-div{
     display:flex;
     width:100%;   
+    align-items: center;
+
+}
+.user-wrapper{
+    width:100%;
+    max-width:100%;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff; 
+    margin-top:25px!important;
+    border-radius: 6px;
+    .usertable{
+        thead{
+            th{
+                font-family: 'Work Sans';
+                font-size: 12px;
+                font-weight: 600; 
+            }
+             
+        }
+        tbody{
+            .MuiTableCell-root{
+                font-family: 'Work Sans';
+                font-size: 12px;
+                
+            }
+        }
+        
+       
+        
+    }
+}
+
+
+.eidwrapper {
+    display: flex;
+    align-items: center;
+}
+.empImg{   
+    display: inline-block;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border: 1px solid red;
+    margin-right: 15px;
+    img{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
 }
