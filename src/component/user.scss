@@ -6,11 +6,19 @@
     align-items: center;
     margin-top: 20px;
     display: flex;
+    h2{
+        font-size: 24px;
+        @media screen and (max-width:767px){
+            font-size: 18px;
+        }
+    }
 }
 .controls-div{
     display:flex;
     width:100%;   
     align-items: center;
+    justify-content: flex-end;
+
 
 }
 .user-wrapper{

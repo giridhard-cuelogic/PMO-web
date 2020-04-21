@@ -17,18 +17,16 @@ class Notification extends Component {
                
                 <Grid container className="container">
                     <div className="title-row">
-                        <Grid item xs={12} sm={6} md={8}>
+                        <Grid item xs={8} sm={10}>
                             <div className="title">
                                 <h2>Notification</h2>
                             </div>  
                         </Grid>      
-                        <Grid item containe xs={12} sm={6} md={4}>    
-                            <div className="controls-div"> 
-                                <Grid item  xs={12} sm={6} md={1}>
-                                    <Button variant="contained" className="btn"> 
-                                        Create New
-                                    </Button>
-                                </Grid>  
+                        <Grid item containe xs={4} sm={2}>    
+                            <div className="controls-div">                             
+                                <Button variant="contained" className="btn"> 
+                                    Create New
+                                </Button>                               
                             </div>   
                         </Grid>
                     </div>    
